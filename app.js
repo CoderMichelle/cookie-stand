@@ -1,5 +1,26 @@
 "use strict"
 var hoursOfOperation = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
+
+function Stores(name, minCust, maxCust, avgCookieSales) {
+  this.name = name;
+  this.minCust = minCust;
+  this.maxCust = maxCust;
+  this.avgCookieSales = avgCookieSales;
+  this.cookiesPerHourList = [];
+  this.totalcookiesPerDay = 0;
+}
+
+// Stores.prototype.display = function () {
+//   var kittenRow = document.createElement('tr');
+
+Stores.prototype.numOfCustomers = function () {
+  var customersPerHour = Math.floor(Math.random() * (this.maxCust - this.minCust) + this.minCust);
+  return customersPerHour;
+
+}
+
+var Seattle = new Stores('Seattle', 23, 65, 6.3,)
+
 var Seattle = {
   name: 'Seattle',
   minCust: 23,
@@ -73,6 +94,13 @@ console.log(Tokyo.cookiesPerHourList);
 console.log(Dubai.cookiesPerHourList);
 console.log(Paris.cookiesPerHourList);
 console.log(Lima.cookiesPerHourList);
+
+
+
+
+
+
+
 
 
 

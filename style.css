@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  background-color:rgb(240, 219, 191);
+  padding: 2rem 0;
+}
+nav {
+  background-color:rgb(233, 211, 214);
+}
+
+
+nav li {
+  display: inline-block;
+
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+
+table {
+  background-color:rgb(217, 226, 191);
+  border: thin solid black;
+  margin: 0 auto;
+}
+
+td {
+  border: thin black solid;
+  padding: 5px 10px;
+}
+
+
+tr:nth-child(even) {
+  background-color:rgb(153, 210, 212);
+}
+tr:nth-child(odd) {
+  background-color:cadetblue;
+}
