@@ -69,3 +69,41 @@ lima.printTable();
 
 console.log(seattle.totalCookiesPerDay);
 console.log(seattle.arrayOfHourlyCookies);
+
+
+
+
+function footerRow(): {
+var footerRow = document.createElement
+var hourlyTotal
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var paris = new StoreBuilder('Paris', 20, 38, 2.3)
+
+var lima = new StoreBuilder('Lima', 2, 16, 4.6)
