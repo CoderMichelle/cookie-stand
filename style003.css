@@ -1,4 +1,4 @@
-{
+* {
   padding: 0;
   margin: 0;
 }
@@ -11,9 +11,9 @@ body {
 h1 {
   font-size: 3rem;
   text-align: center;
-  background-color: rgb(245, 171, 146);
+  background-color: rgb(161, 219, 202);
   padding: 1.0rem 0;
-  border-bottom: coral solid 12px;
+  /* border-bottom: rgb(60, 63, 58) solid 8px; */
 }
 
 li {
@@ -30,9 +30,9 @@ nav {
   top: 0;
   left: 0; */
   width: 100vw;
-  background-color: rgb(245, 171, 146);
+  background-color: rgb(161, 219, 202);
   margin-top: 0;
-  border-bottom: coral solid 12px;
+  border-bottom: rgb(106, 110, 103) solid 8px;
   /* z-index: 5; */
 }
 
@@ -47,40 +47,101 @@ nav ol {
 nav ol li {
   font-size: 1.5rem;
   border: 1px solid black;
-  padding: 15px 50px;
-  margin: 10px 10px;
+  padding: 8px 30px;
+  margin: 10px;
   border-radius: 10px;
   background-color: rgb(238, 204, 193);
   font-weight: 900;
 }
 
 nav ol li:hover {
-  background: coral;
+  background: rgb(132, 132, 134);
   font-size: 1.5rem;
-  padding: 15px 50px;
-  margin: 10px 10px;
+  padding: 8px 30px;
+  margin: 10px;
 }
 
 a:hover {
-  color: coral;
   color: #fff;
 }
 
-
-/* cookie Monster styling */
-img {
-  display: block;
+main {
+  width: 960px;
   margin: 0 auto;
+  border: white solid 1px;
   position: relative;
-  top: 275px;
-  width: 900px;
-  opacity: 0.3;
+  background-color: white;
 }
 
+.salmonpics {
+ display: flex; 
+ width: 100%;
+ margin: 15px 0;
+}
 
+.salmonpics img {
+  width: 48%
+}
 
+.cookiehistory h2 {
+  text-align: center;
+  margin: 24px 0;
+}
 
+.cookiehistory img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 24px;
+}
 
+.cookiehistory p {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  font-size: large;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.cookiepictures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.cookiepictures img {
+  margin: 5px; 
+  border-radius: 10px;
+}
+.cookiepictures img:nth-child(3) {
+  border: 2px solid rgb(197, 190, 190);
+  padding: 20px;
+}
+
+#stores h3 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 26px;
+}
+.storescontainer {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+ul li {
+  font-size: large;
+  padding: 5px 0;
+}
+.tshirt h3 {
+  text-align: center;
+  margin: 24px;
+  font-size: 26px;
+}
+.tshirt img {
+  display: block;
+  margin: 0 auto;
+
+}
 /* sales page start */
 
 body {
@@ -108,11 +169,10 @@ table {
 }
 
 tr:nth-child(even) {
-  background-color: rgb(238, 204, 193);
+  background-color:rgb(59, 194, 199);
 }
-
 tr:nth-child(odd) {
-  background-color: rgb(245, 171, 146);
+  background-color:cadetblue;
 }
 
 td:nth-of-type(1) {

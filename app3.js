@@ -1,6 +1,6 @@
 'use strict';
 
-var elTarget = document.getElementById('profiles');
+var elTarget = document.getElementById('cookieTable');
 var table = document.createElement('table');
 elTarget.appendChild(table);
 var tableHead = document.createElement('thead');
