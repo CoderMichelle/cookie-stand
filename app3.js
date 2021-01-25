@@ -53,7 +53,6 @@ Stores.prototype.printTable = function () {
   }
 }
 
-
 var seattle = new Stores('Seattle', 23, 65, 6.3);
 seattle.numOfCustomers();
 seattle.printTable();
